@@ -54,41 +54,37 @@ const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
             <div className="mb-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">About Chris Elliott</h3>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Christopher Elliott is a distinguished Dubai-based entrepreneur who has built and successfully exited multiple ventures, 
-                establishing himself as a leader in e-commerce, business strategy, and market expansion across international markets.
+                Chris Elliott is a Dubai-based entrepreneur known for building and exiting multiple successful ventures across e-commerce, digital strategy, and international market expansion.
               </p>
             </div>
 
             <div className="mb-6">
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Entrepreneurial Success</h4>
+              <h4 className="text-xl font-semibold text-gray-800 mb-3">Entrepreneurial Journey</h4>
               <p className="text-gray-700 leading-relaxed mb-4">
-                In 2020, Chris launched <strong>Hygiene 100</strong>, a specialized e-commerce company focused on hygiene products. 
-                Through his innovative digital-first approach and operational excellence, he scaled the business to generate over 
-                <strong> 10 million euros in turnover within just 18 months</strong>. His success culminated in a strategic exit in 2025, 
-                placing him among the rare founders who built and sold a high-performing company in a traditionally overlooked sector.
+                In 2020, Chris launched a hygiene-focused e-commerce brand that quickly became a category leader.
+                With a digital-first approach, fast logistics, and lean operations, he scaled the business to 
+                over <strong>€10 million in turnover within just 18 months—culminating </strong> in a successful exit in 2025.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Chris revolutionized how hygiene products were sold online by focusing on logistics, scalability, and digital accessibility. 
-                His team processed orders the same day and delivered them within 48 hours across Germany, Austria, and Belgium, 
-                serving over <strong>5,300 customers</strong> including pharmacies, care homes, clinics, and wholesalers.
+                The brand served over <strong>5,300 customers</strong> across Germany, Austria, and Belgium, including pharmacies,
+                care homes, clinics, and wholesalers, with a promise of same-day processing and 48-hour delivery.
               </p>
             </div>
 
             <div className="mb-6">
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Current Ventures</h4>
+              <h4 className="text-xl font-semibold text-gray-800 mb-3">What He's Building Now</h4>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Following his successful exit, Chris founded two new ventures using the proceeds from his previous success:
+                After his exit, Chris began focusing on two key areas:
               </p>
               <div className="ml-4 mb-4">
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>The chris elliott GROUP:</strong> Provides comprehensive market-entry services and advisory support 
-                  for international businesses looking to establish operations in the UAE. The company removes red tape and 
-                  supports foreign founders who want to launch in Dubai's dynamic business environment.
+                  <strong>Helping founders go global:</strong> guiding entrepreneurs and investors through launching
+                  in Dubai's fast-paced market, cutting through red tape, and simplifying company setup, relocation,
+                  and expansion.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Elliott Capitals:</strong> His private investment firm focused on digital and service-driven growth. 
-                  The firm acquires companies with strong fundamentals and scales them through optimized systems, capital access, 
-                  and structured expansion, while also building new ventures from execution-ready ideas.
+                  <strong>Scaling and acquiring digital ventures</strong> investing in service-based and tech-enabled businesses with strong
+                  fundamentals, building and scaling them through systems, automation, and hands-on strategy.
                 </p>
               </div>
             </div>
@@ -96,20 +92,18 @@ const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
             <div className="mb-6">
               <h4 className="text-xl font-semibold text-gray-800 mb-3">Business Philosophy</h4>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Chris built his success on operational strength, consistent service, and precise execution—all achieved with 
-                <strong> zero external funding</strong>. His approach focuses on:
+                Chris built everything from the ground up—no outside funding, no fluff. His principles are built on:
               </p>
               <ul className="list-disc ml-6 text-gray-700 leading-relaxed mb-4">
-                <li>Streamlined processes and lean infrastructure</li>
-                <li>Direct relationships with suppliers and customers</li>
-                <li>Automation to increase speed and accuracy</li>
-                <li>Transparent buyer experiences</li>
-                <li>Systems that can scale rapidly and adapt to market needs</li>
+                <li>Simplicity, speed, and structure</li>
+                <li>Automation and scalable systems</li>
+                <li>Strong supplier and client relationships</li>
+                <li>High-impact execution with minimal overhead</li>
+                <li>Real customer value over hype</li>
               </ul>
               <p className="text-gray-700 leading-relaxed">
-                His foundation was built on the lessons learned growing up, watching his father work with discipline and pride, 
-                always delivering the highest level of service to clients—principles that became the cornerstone of his own 
-                focused, practical, and customer-driven approach.
+                His approach is deeply shaped by the work ethic and values passed down from his father—discipline, 
+                consistency, and always delivering quality.
               </p>
             </div>
 

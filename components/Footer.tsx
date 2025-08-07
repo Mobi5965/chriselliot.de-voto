@@ -33,7 +33,6 @@ interface FooterProps {
   // Footer Bottom
   copyrightText?: string
   poweredByText?: string
-  poweredByUrl?: string
   poweredByLinkText?: string
   privacyPolicyText?: string
   privacyPolicyUrl?: string
@@ -74,8 +73,6 @@ const Footer = ({
   // Footer bottom defaults
   copyrightText = "© 2025 Chris Elliott. All rights reserved.",
   poweredByText = "Powered by",
-  poweredByUrl = "https://www.aviantdigital.xyz",
-  poweredByLinkText = "AviantDigital",
   privacyPolicyText = "Privacy Policy",
   privacyPolicyUrl = "#",
   termsOfServiceText = "Terms of Service", 
@@ -194,17 +191,6 @@ const Footer = ({
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col md:flex-row items-center text-gray-400 text-sm mb-4 md:mb-0 space-y-2 md:space-y-0 md:space-x-4">
               <div>{copyrightText}</div>
-              <div>
-                {poweredByText}{' '}
-                <a 
-                  href={poweredByUrl} 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-red-400 hover:text-red-300 transition-colors duration-200"
-                >
-                  {poweredByLinkText}
-                </a>
-              </div>
             </div>
             <div className="flex space-x-6 text-sm">
               <a 

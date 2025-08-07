@@ -65,7 +65,7 @@ const Header = ({
 
   const handlePodcastsClick = () => {
     setIsMenuOpen(false)
-    window.open('https://www.youtube.com/playlist?list=PLeVpdd6X4LepXUU3484c6JwoOMW--wMDM', '_blank', 'noopener,noreferrer')
+    window.open('https://www.youtube.com/@chriselliott_', '_blank', 'noopener,noreferrer')
   }
 
   return (

@@ -1007,16 +1007,6 @@ if (typeof window !== 'undefined') {
           defaultValue: 'Powered by',
           displayName: 'Powered By Text'
         },
-        poweredByUrl: {
-          type: 'string',
-          defaultValue: 'https://www.aviantdigital.xyz',
-          displayName: 'Powered By URL'
-        },
-        poweredByLinkText: {
-          type: 'string',
-          defaultValue: 'AviantDigital',
-          displayName: 'Powered By Link Text'
-        },
         privacyPolicyText: {
           type: 'string',
           defaultValue: 'Privacy Policy',
