@@ -63,7 +63,7 @@ const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
               <p className="text-gray-700 leading-relaxed mb-4">
                 In 2020, Chris launched a hygiene-focused e-commerce brand that quickly became a category leader.
                 With a digital-first approach, fast logistics, and lean operations, he scaled the business to 
-                over <strong>€10 million in turnover within just 18 months—culminating </strong> in a successful exit in 2025.
+                over <strong>€10 million in turnover within just 18 months - culminating </strong> in a successful exit in 2025.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The brand served over <strong>5,300 customers</strong> across Germany, Austria, and Belgium, including pharmacies,
