@@ -16,45 +16,45 @@ declare global {
 
 const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
   // Calendly script effect - MUST run on every render
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://assets.calendly.com/assets/external/widget.js';
-    script.async = true;
-    document.body.appendChild(script);
+  // useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://assets.calendly.com/assets/external/widget.js';
+  //   script.async = true;
+  //   document.body.appendChild(script);
 
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
 
   // Modal behavior effect
-  useEffect(() => {
-    if (!isOpen) return;
+  // useEffect(() => {
+  //   if (!isOpen) return;
 
-    const script = document.createElement('script');
-    script.src = 'https://assets.calendly.com/assets/external/widget.js';
-    script.async = true;
-    document.body.appendChild(script);
+  //   const script = document.createElement('script');
+  //   script.src = 'https://assets.calendly.com/assets/external/widget.js';
+  //   script.async = true;
+  //   document.body.appendChild(script);
 
-    script.onload = () => {
-      if (window.Calendly) {
-        window.Calendly.initInlineWidget({
-          url: 'https://calendly.com/chriselliott_/chriselliott',
-          parentElement: document.getElementById('calendly-container')!,
-          prefill: {},
-          utm: {}
-        });
-      }
-    };
+  //   script.onload = () => {
+  //     if (window.Calendly) {
+  //       window.Calendly.initInlineWidget({
+  //         url: 'https://calendly.com/chriselliott_/chriselliott',
+  //         parentElement: document.getElementById('calendly-container')!,
+  //         prefill: {},
+  //         utm: {}
+  //       });
+  //     }
+  //   };
 
-    return () => {
-      document.body.removeChild(script);
-      const container = document.getElementById('calendly-container');
-      if (container) {
-        container.innerHTML = ''; // Clean up
-      }
-    };
-  }, [isOpen]);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //     const container = document.getElementById('calendly-container');
+  //     if (container) {
+  //       container.innerHTML = ''; // Clean up
+  //     }
+  //   };
+  // }, [isOpen]);
 
 
   //Hooks must be above conditional return
@@ -99,10 +99,21 @@ const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
         </div>
 
         <div className="h-[calc(100%-80px)] overflow-auto touch-pan-y pb-4 md:pb-0">
-          <div
+          {/* Calendly container (commented out) */}
+          {/* <div
               id="calendly-container"
               style={{ minWidth: '420px', height: '700px' }}
-            ></div>
+            ></div> */}
+
+          {/* LeadConnector embed */}
+          <iframe 
+            src="https://api.leadconnectorhq.com/widget/booking/mBnEimwaVAYwcagtDdbu" 
+            style={{width: '100%', height: '100%', border:'none', overflow: 'hidden'}}
+            scrolling="yes" 
+            id="mBnEimwaVAYwcagtDdbu_1755768114905"
+          ></iframe>
+          <script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
+          
           <div className="h-4 md:hidden"></div>
         </div>
       </div>
